@@ -1,0 +1,33 @@
+                             DOCUMENTATION FILE
+
+ERRORS HANDLED:-
+ 
+ 1.) STP FOUND IN FIRST LINE
+
+ 2.) START FOUND MORE THAN ONCE
+ 
+ 3.) NUMBER OF OPERANDS REQUIRED CORRESPONDING TO A PARTICULAR OPCODE DOES NOT MATCH
+
+ 4.)  NO OPCODE FOUND
+
+ 5.) START NOT FOUND ERROR
+
+ 6.) INSTRUCTION LENGTH IS 0
+
+ 7.) INSTRUCTION LENGTH>256
+
+8.) WRONG FORMAT ERROR (FOR EX:- L1: X)
+
+ASSUMPTIONS:-
+ 
+*We have not used registers. 
+
+*Literals are specified using '=x' format'.
+
+*"DC" is used as a declarative statement.
+
+*Maximum instruction length is 3.
+
+*In the final output, there will be a 8 bit code representing the instruction number in binary representation form, and thereafter, there will be 8 bit addresses  corressponding to the label or     variable present and 4 bit opcode present.
+
+* "START" statement is compulsory for the program.
